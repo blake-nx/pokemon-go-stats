@@ -22,3 +22,7 @@ h1 {
   grid-column: auto;
   grid-row: auto;
 }
+
+.pokemonImg {
+  max-width: 150px;
+}
