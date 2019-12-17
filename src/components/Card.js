@@ -108,7 +108,6 @@ const Card = ({ name, type1, type2, id, atk, sta, def, cp, form }) => {
           {name} {form ? `(${form})` : ""}
         </h3>
         <img
-        className="pokemonImg"
           alt={name}
           src={
             form
