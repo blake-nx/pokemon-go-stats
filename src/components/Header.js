@@ -10,9 +10,6 @@ const Header = ({onSearchChange}) => {
               <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">
                 Search Pokemon Stats Instantly
               </h1>
-              <h2 class="fw1 f3 white-80 mt3 mb4">
-                The results are filtered as you type
-              </h2>
               <SearchBox searchChange={onSearchChange} />
             </div>
           </div>

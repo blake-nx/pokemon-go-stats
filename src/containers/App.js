@@ -31,7 +31,6 @@ class App extends Component {
 
   render() {
     const { searchField, onSearchChange, pokemon, isPending } = this.props;
-    
     const filteredPokemon = pokemon.filter(pokemon => {
       if (pokemon.type2) {
         return (

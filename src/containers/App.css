@@ -14,7 +14,7 @@ h1 {
 .container {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
 }
 
 .card {
@@ -23,5 +23,5 @@ h1 {
 }
 
 .pokemonImg {
-  max-width: 150px;
+  max-height: 200px;
 }
