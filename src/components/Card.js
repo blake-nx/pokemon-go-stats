@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const typeColors = {
@@ -73,8 +74,20 @@ const Card = ({ name, type1, type2, id, atk, sta, def, cp, form }) => {
       case "Speed":
         formID = "_f4";
         break;
+      case "Origin":
+	formID = "_f2";
+	break;
+      case "Sky":
+        formID = "_f2";
+        break;
+      case "Sunny":
+        formID = "_f2";
+        break;
+      case "East":
+        formID = "_f2";
+        break;
       default:
-        formID = null;
+        formID = '';
     }
     return formID;
   }
@@ -92,6 +105,9 @@ const Card = ({ name, type1, type2, id, atk, sta, def, cp, form }) => {
         break;
       case "nidoran♂":
         sprite = "nidoranm";
+        break;
+      case "mime jr.":
+        sprite = "mime-jr";
         break;
       default:
         sprite = name.toLowerCase();

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="pv4 ph3 ph5-m ph6-l mid-gray">
+    <footer className="pv4 ph3 ph5-m ph6-l bg-purple washed-green">
       <small className="f6 db tc">
         Pokémon is Copyright Gamefreak, Nintendo and The Pokémon Company
         2001-2016 All images and names owned and trademarked by Nintendo,

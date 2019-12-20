@@ -3,7 +3,7 @@ import Card from './Card';
 
 const CardList = ({ pokemon }) => {
   return (
-    <div className="container bg-light-gray">
+    <div className="container bg-near-white">
       {
         pokemon.map((pokemon, i) => {
           return (
